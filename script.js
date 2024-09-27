@@ -26,6 +26,18 @@ class Teacher extends Person {
         console.log(this._name+"is teaching")
     }
 }
+//creating instance of class Person and calling name() & age() with getter and setter
+const person=new Person("Tharun",23);
+console.log(person.name);
+person.age=30;
+console.log(person.age);
+//creating instance of class Student and calling study()
+const student=new Student("mani",15);
+student.study();
+// creating instance of Teacher and calling teach()
+const teacher=new Teacher("vasudeva", 25);
+teacher.teach();
+
 
 // Do not change the code below this line
 window.Person = Person;
